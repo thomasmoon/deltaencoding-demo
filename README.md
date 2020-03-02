@@ -2,7 +2,7 @@
 
 This service featuring react SPA client and NodeJS microservice backend, compresses text using the _delta encoding_ algorithm found in its own class of the same name.
 
-This demo was created as a recruitment task for Aito.ai.
+This demo was created as a recruitment task for [Aito.ai](https://aito.ai).
 
 ![Screenshot](/client/public/screenshot.png?raw=true "Screenshot")
 
