@@ -1,0 +1,19 @@
+{
+  "name": "deltaencoder",
+  "version": "0.0.1",
+  "description": "A javascript module to compress and decompress wordlists using delta encoding.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "delta",
+    "encoding",
+    "lossless",
+    "string",
+    "compression"
+  ],
+  "author": "Thomas Moon",
+  "license": "ISC"
+}

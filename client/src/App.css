@@ -1,0 +1,106 @@
+.App {
+  margin: 0 auto;
+  max-width: 320px;
+  text-align: center;
+}
+
+.App-logo {
+  color: #64b99a;
+  font-size: 0.75rem;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 1rem;
+  text-decoration: none;
+}
+
+.App-logo:focus {
+  outline: none;
+  text-decoration: underline;
+}
+
+.App-logo-img {
+  height: 2rem;
+  margin-top: 0.25rem;
+}
+
+.App-tm {
+  color: #8d847f;
+  font-size: 0.75rem;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1rem;
+  text-decoration: none;
+}
+
+.App-tm:focus {
+  outline: none;
+  text-decoration: underline;
+}
+
+.App-tm-img {
+  height: 2rem;
+  margin-top: 0.25rem;
+  opacity: 0.1;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1.5vmin);
+  color: white;
+  color: rgb(193, 192, 201);
+}
+
+form {
+  margin: 0 auto;
+  width: 100%;
+}
+
+textarea {
+  border-radius: 30px;
+  margin: 1rem auto;
+  min-height: 6rem;
+  padding: 15px 30px;
+  border: 3px solid #ffffff;
+}
+
+textarea:focus {
+  border: 3px solid #ffcbd8;
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: rgb(255, 169, 211);
+  border: 3px solid rgb(255, 169, 211);
+  border-radius: 2rem;
+  box-shadow: rgba(0, 126, 68, 0.1) 0px 2px 8px 0px;
+  color: rgb(153, 100, 103);
+  font-family: system-ui;
+  font-weight: 700;
+  padding: 0.6rem 1rem;
+  margin-top: 1rem;
+}
+
+input[type="submit"]:focus {
+  border: 3px solid rgb(153, 100, 103);
+  outline: none;
+}
+
+.MuiFormControlLabel-root {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.MuiFormControlLabel-label {
+  color: #808080;
+  font-size: 0.75rem !important;
+  padding: 0 0.5rem;
+  user-select: none; 
+}
+
+label {
+  user-select: none;
+}

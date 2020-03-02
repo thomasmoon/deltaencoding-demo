@@ -1,0 +1,19 @@
+{
+    "name": "deltaencoding-demo",
+    "version": "0.0.1",
+    "description": "A demo to compress wordlists with the delta encoding algorithm",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+      "postinstall": "(cd client && npm install) && (cd server && npm install);"
+    },
+    "keywords": [
+      "compression",
+      "encoding",
+      "lossless",
+      "microservice"
+    ],
+    "author": "Thomas Moon",
+    "license": "MIT"
+  }
+  

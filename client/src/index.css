@@ -1,0 +1,21 @@
+html {
+  min-width: 320px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: rgb(203, 158, 165);
+  font-family: 'Space Mono', Courier, sans-serif;
+  font-size: calc(20px + 2vmin);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+
