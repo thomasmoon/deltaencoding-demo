@@ -10,15 +10,15 @@ This demo was created as a recruitment task for Aito.ai.
 
 This application contains three self-contained packages:
 
-1. client/
+### 1. `client/`
 
 This SPA sends text over ajax to the microservice and displays the converted text in the same text are as the input.
 
-2. server/
+### 2. `server/`
 
 This microservice provides too routes for POST requests /compress and /decompress
 
-3. server/lib/deltaencoder
+### 3. `server/lib/deltaencoder`
 
 This class contains the actual algorithm that the server uses.
 
