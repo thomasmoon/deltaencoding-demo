@@ -37,6 +37,6 @@ app.post('/decompress', (req, res) => {
 })
 
 // Default Route - Return status 415
-app.get('/*', (req, res) => res.send(415))
+app.get('/*', (req, res) => res.sendStatus(415))
 
 app.listen(port, () => console.log(`Text compression microservice listening on port ${port}!`))

@@ -2,9 +2,9 @@
 
 This microservices performs two functions
 
-1. /compress    Compresses posted string using delta encoding.
+1. `/compress` Compresses posted string using delta encoding.
 
-2. /decompress  Decompresses posted string
+2. `/decompress` Decompresses posted string
 
 All other routes returns error 415 (unsupported media type).
 
@@ -39,14 +39,17 @@ Run tests in a seperate window:
 ```npm test```
 
 You can also test with custom wordlists from the command line using curl, which will save the output to its own file:
+
 ```curl -X POST --data-binary words.txt http://localhost:3000/compress > words_compressed.txt```
 
 Then this same file can be run back through the decompresser and the output can be observed in the console:
+
 ```curl -X POST --data-binary words_compressed.txt http://localhost:3000/decompress```
 
 Get your own world list from here:
 [https://raw.githubusercontent.com/dwyl/english-words/master/words.txt](https://raw.githubusercontent.com/dwyl/english-words/master/words.txt)
 
 Save it directly to the words.txt file
+
 ```curl https://raw.githubusercontent.com/dwyl/english-words/master/words.txt > words.txt```
 

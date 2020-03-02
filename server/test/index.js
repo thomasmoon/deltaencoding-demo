@@ -58,3 +58,14 @@ describe('/POST compressed text', () => {
             });
     });
 });
+
+describe('/GET other requests', () => {
+    it('should return status 415, unsupported media type', (done) => {
+            chai.request('http://localhost:3000')
+            .get('/')
+            .end((err, res) => {
+                res.should.have.status(415);
+            done();
+            });
+    });
+});
